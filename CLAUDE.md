@@ -41,6 +41,7 @@ Kotlin. Exercises and projects target JVM Kotlin.
 | `/build <module>` | Guides you through the mini-project step by step without giving away the answer |
 | `/review <file-path>` | Reviews your code for idiomatic Kotlin, correctness, and style |
 | `/assess <module>` | 5-question assessment to check mastery before moving on |
+| `/extract-notes <module>` | Auto-fills `modules/<module>/notes.md` from the current conversation |
 | `/plan-roadmap` | Shows progress, recommends what to work on next |
 
 ## Module Progression (14 modules, 4 phases)
