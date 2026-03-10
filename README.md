@@ -64,6 +64,15 @@ Claude reviews your project code: "Line 12 — you're using `!!` here, but
 you could use `?.let { ... } ?: defaultValue` instead. Here's why..."
 ```
 
+**Capture Your Notes:**
+```
+> /extract-notes null-safety-and-types
+
+Claude reads the conversation, your exercises, and project code, then
+auto-fills modules/null-safety-and-types/notes.md with a concise
+reference sheet — concepts, syntax, patterns, and takeaways.
+```
+
 **Before Moving On:**
 ```
 > /assess null-safety-and-types
@@ -97,6 +106,7 @@ See `roadmap/` for the full breakdown with progress tracking.
 | `/build <module>` | Guided mini-project (no spoilers) |
 | `/review <file-path>` | Idiomatic Kotlin code review |
 | `/assess <module>` | 5-question mastery check |
+| `/extract-notes <module>` | Auto-fills module notes from conversation, exercises, and project |
 | `/plan-roadmap` | Progress overview and next steps |
 
 ## Structure

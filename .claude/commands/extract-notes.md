@@ -23,6 +23,7 @@ Based on everything covered in this conversation about the **$ARGUMENTS** module
 
 ## Rules
 
+- **Incremental updates** — if notes.md already has content, preserve existing entries and add new ones. Do not remove or overwrite previous content. Update sections that have new information to add (e.g., append new exercises to the Exercises Completed list).
 - Be concise — this is a reference sheet, not a textbook
 - Use code snippets liberally — they're easier to scan than prose
 - Only include what was actually covered in the conversation
